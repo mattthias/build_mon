@@ -1,5 +1,7 @@
 # .travis.yml
 language: cpp
+before_install: 
+  - sudo apt-get update -qq
 install: 
   - sudo apt-get install -y libqt4-webkit libqtwebkit-dev qt4-qmake qt4-dev-tools
 before_script: qmake
