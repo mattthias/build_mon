@@ -5,15 +5,19 @@ This very simple QT4 application shows a fullscreen webkit widget with a
 configured url. It can be used to show your monitoring dashboard or the a
 buildchain status page.
 
-To compile this application you need qmake and qt4 (apt-get install libqt4-dev
-libqt4-webkit qt4-qmake).
+To compile this application you need qmake and qt4:
+```
+apt-get install libqt4-dev libqt4-webkit qt4-qmake
+```
 
 https://travis-ci.org/mattthias/build_mon.svg
 
 Run:
-        qmake
-        make
-        ./build_mon
+```
+qmake
+make
+./build_mon
+```
 
 To configure the url shown created a config file $HOME/.config/mattthias/build_mon.ini
 ```
