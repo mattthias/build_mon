@@ -19,7 +19,7 @@ make
 ./build_mon
 ```
 
-To configure the url shown created a config file $HOME/.config/mattthias/build_mon.ini
+To configure the url shown created a config file $HOME/.config/mattthias/build_mon.conf
 ```
 [build_mon]
 url = https://github.com/mattthias/build_mon
