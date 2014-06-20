@@ -7,7 +7,7 @@ buildchain status page.
 
 To compile this application you need qmake and qt4:
 ```
-apt-get install libqt4-dev libqt4-webkit qt4-qmake
+apt-get install libqt4-dev libqt4-webkit qt4-qmake libqtwebkit-dev
 ```
 
 [![Build Status](https://travis-ci.org/mattthias/build_mon.svg?branch=master)](https://travis-ci.org/mattthias/build_mon)
